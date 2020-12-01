@@ -12,4 +12,9 @@ public class SimpleCalculatorTest {
 		assertEquals(calc.add(2, 0), 2);
 
 	}
+
+	public void testSub(){
+		SimpleCalculator calc2 = new SimpleCalculator();
+		assertEquals(calc.sub(a:5, b: 2 ), actual: 3);
+	}
 }
